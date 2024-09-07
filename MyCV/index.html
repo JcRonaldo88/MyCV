@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoja de Vida - Juan Carlos Ronaldo González </title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <h1>Juan Carlos Ronaldo González Miranda</h1>
+        <p class="subtitle">Ingeniería de Sistemas</p>
+        <div class="header-buttons">
+            <button id="theme-toggle">Cambiar Tema</button>
+            <button id="download-cv">Descargar CV</button>
+        </div>
+    </header>
+
+    <div class="container">
+
+        <!-- Foto -->
+        <div class="profile-picture">
+            <img src="images/foto.jpg" alt="Foto de Juan Carlos Ronaldo González Miranda">
+        </div>
+
+        <!-- Información Personal -->
+        <div class="info">
+            <h2>Datos Personales</h2>
+            <p><strong>Nombre Completo:</strong> Juan Carlos Ronaldo González Miranda</p>
+            <p><strong>Edad:</strong> 21 años</p>
+            <p><strong>Dirección:</strong> Calle 81 #114-50 Bogotá D.C.</p>
+            <p><strong>Email:</strong> jc.gonza202@gmail.com</p>
+        </div>
+
+        <!-- Perfil Laboral -->
+        <div class="info">
+            <h2>Perfil Laboral</h2>
+            <p class="justificado">Soy un estudiante de sexto semestre de Ingeniería de Sistemas con una sólida formación en desarrollo de software, bases de datos, redes y sistemas operativos. Me apasiona la tecnología y estoy constantemente formándome y buscando oportunidades para aplicar mis conocimientos en proyectos innovadores. Mi objetivo es integrarme en un equipo dinámico donde pueda contribuir al desarrollo de soluciones tecnológicas que impacten positivamente en la sociedad.</p>
+        </div>
+
+        <!-- Cuadros de Estudios y Experiencia Laboral -->
+        <div class="flex-container">
+            <div class="box">
+                <h2>Estudios</h2>
+                <p><strong>Bachiller Académico:</strong> Título de Bachiller</p>
+                <p><strong>Institución:</strong> Gimnasio Shekinah</p>
+                <p><strong>Año de Finalización:</strong> 2020</p>
+                <hr>
+                <p><strong>Técnico:</strong> Técnico Laboral en Sistemas</p>
+                <p><strong>Institución:</strong> Iscol</p>
+                <p><strong>Año de Finalización:</strong> 2021</p>
+                <hr>
+                <p><strong>Diplomado:</strong> Fotografía</p>
+                <p><strong>Institución:</strong> Politécnico de Colombia</p>
+                <p><strong>Año de Finalización:</strong> 2020</p>
+            </div>
+            <div class="box">
+                <h2>Experiencia Laboral</h2>
+                <p><strong>Corporación Universitaria de Ciencia y Desarrollo Uniciencia</strong></p>
+                <p><strong>Puesto:</strong> Asesor Comercial</p>
+                <p><strong>Duración:</strong> 2 meses</p>
+                <hr>
+                <p><strong>Centro Nacional de Consultoría</strong></p>
+                <p><strong>Puesto:</strong> Encuestador de Campo</p>
+                <p><strong>Duración:</strong> 3 meses</p>
+                <hr>
+                <p><strong>Asignar S.A.S</strong></p>
+                <p><strong>Puesto:</strong> Steward</p>
+                <p><strong>Duración:</strong> 2 meses</p>
+            </div>
+        </div>
+
+        <!-- Barras de Idiomas y Habilidades -->
+        <div class="skills-languages">
+            <h2>Idiomas</h2>
+            <div class="skill-bar">
+                <span>Inglés</span>
+                <div class="progress"><div class="progress-bar" style="width: 75%;"></div></div>
+            </div>
+            <div class="skill-bar">
+                <span>Español</span>
+                <div class="progress"><div class="progress-bar" style="width: 100%;"></div></div>
+            </div>
+
+            <h2>Habilidades</h2>
+            <div class="skill-bar">
+                <span>Programación y Desarrollo</span>
+                <div class="progress"><div class="progress-bar" style="width: 89%;"></div></div>
+            </div>
+            <div class="skill-bar">
+                <span>Trabajo en Equipo</span>
+                <div class="progress"><div class="progress-bar" style="width: 95%;"></div></div>
+            </div>
+            <div class="skill-bar">
+                <span>Analisis</span>
+                <div class="progress"><div class="progress-bar" style="width: 89%;"></div></div>
+            </div>
+            <div class="skill-bar">
+                <span>Comunicación Efectiva</span>
+                <div class="progress"><div class="progress-bar" style="width: 85%;"></div></div>
+            </div>
+            <div class="skill-bar">
+                <span>Resolución de Problemas</span>
+                <div class="progress"><div class="progress-bar" style="width: 85%;"></div></div>
+            </div>
+        </div>
+
+        <!-- Habilidades Técnicas -->
+        <div class="skills">
+            <h2>Habilidades Técnicas</h2>
+            <div class="skill-section">
+                <p><strong>Lenguajes de Programación:</strong> Java, Python, C#</p>
+                <p><strong>Desarrollo Web:</strong> HTML, CSS, JavaScript</p>
+                <p><strong>Bases de Datos:</strong> MySQL, PostgreSQL, SQLite</p>
+                <p><strong>Sistemas Operativos:</strong> Windows, Linux</p>
+            </div>
+        </div>
+    </div>
+
+        <!-- Footer -->
+    <footer>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/tu-perfil" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="https://github.com/tu-perfil" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="mailto:jc.gonza202@gmail.com">Email</a>
+        </div>
+        <p class="footer-info">© 2024 Juan Carlos González. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Incluye jsPDF en tu HTML -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
