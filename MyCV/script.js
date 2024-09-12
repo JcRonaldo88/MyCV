@@ -25,13 +25,8 @@ document.addEventListener('DOMContentLoaded', () => {
         doc.text("Juan Carlos Ronaldo González Miranda", 10, 10);
         doc.text("Ingeniería de Sistemas", 10, 20);
         doc.text("Email: jc.gonza202@gmail.com", 10, 30);
-
-        // Agregar contenido adicional aquí
-
         doc.save('Hoja_de_Vida_Juan_Carlos_Ronaldo.pdf');
     });
-
-    // Código para la interactividad de las barras de progreso sigue aquí...
 });
 
 
